@@ -94,9 +94,6 @@ opacity: 0px;
 /*
 dz
 */
-
-
-
 .recipes-btn{
     width: Hug (76px)px;
     height: Hug (24px)px;
@@ -107,14 +104,11 @@ dz
     background: #EE6352;
     border-radius: 18px;
     text-transform: uppercase; 
-
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     text-align: left;
-    
-
    
 }
 
@@ -127,8 +121,7 @@ h1{
     line-height: 40px;
     letter-spacing: 0.01em;
     text-align: left;
-    text-transform: uppercase; 
-      
+    text-transform: uppercase;   
         }
 
 .food-item {
@@ -149,16 +142,10 @@ font-weight: 300;
 line-height: 22.4px;
 letter-spacing: 0.01em;
 text-align: left;
-
-
-
-
-
 }
 
 
 .yeas {
-
    background: #C4E5FC;
    border: 1px solid black;
    color: #262522;
@@ -181,15 +168,6 @@ text-align: left;
     opacity: 0px;
 
     }
-
-
-
-
-/*
-dz
-*/
-
-
  
 .search { 
     display: flex; 
@@ -216,8 +194,6 @@ button {
     border-radius: 24px; 
 } 
  
- 
-/* recipes css */ 
  
 .recipes { 
     .recipes-top { 
@@ -326,33 +302,11 @@ button {
 }
 
 
-
-/* hero */
-
-
-
- /* .hero{
-
-
-    padding: 120px 0;
-    text-align: center;
-    background-image: url(../img/hero.png);
-    border-radius: 32px;
-
-   
-} */
-
-
 .hero img {
-    margin-top: -120px; /* Сдвигаем изображение вверх на 60px */
+    margin-top: -120px; 
     width: 1510px;
     border-radius: 30px;
 }
-
-
-
-
-
 
 .hero {
     
@@ -361,72 +315,31 @@ button {
         position: relative;
         padding: 120px 0;
         text-align: center;
-        background-image: url('../img/hero.png'); /* Убедитесь, что путь правильный */
+        background-image: url('../img/hero.png'); 
         background-size: cover;
         background-position: center;
-        /* height: 400px; Установите высоту для видимости фона */
         min-height: 500px;
         border-radius: 32px;
         width: 1520px;
-        height: 577px; /* Задайте нужное значение */
-
-    
-    
+        height: 577px; 
 }
 
 .hero-content {
-    position: relative; /* Чтобы содержимое находилось поверх фона */
-    z-index: 1; /* Обеспечивает, чтобы содержимое было над фоном */
-    color: white; /* Например, цвет текста для контраста */
+    position: relative; 
+    z-index: 1;
+    color: white; 
 
   
 }
-
-/* .hero-content h1{
-   
-        font-family: Montserrat;
-        font-size: 80px;
-        font-weight: 800;
-        line-height: 80px;
-        letter-spacing: -0.01em;
-        text-align: center;
-        
-        width: 869px;
-        height: 160px;
-        gap: 0px;
-        opacity: 0px;
-        
-} */
-
- 
-
-
-
-
-
-
-
-/* .hero {
-    padding: 120px 0;
-     margin-bottom: 390px;
-
-    
-    
-} */
-
-
-
-
-
 
 .hero {
     position: relative;
     padding: 120px 0;
     text-align: center;
-    background-image: url('../img/hero.png'); /* Убедитесь, что путь правильный */
+    background-image: url('../img/hero.png'); 
     background-size: cover;
     background-position: center;
-    min-height: 500px; /* Устанавливает минимальную высоту */
+    min-height: 500px;
     border-radius: 32px;
     width: 1520px;
 }
@@ -438,13 +351,10 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(50, 50, 50, 0.5); /* Темно-серый с 50% прозрачностью */
-    border-radius: 32px; /* Сохранение скругления */
-    z-index: 1; /* Помещаем под содержимым */
+    background-color: rgba(50, 50, 50, 0.5); 
+    border-radius: 32px; 
+    z-index: 1;
 }
-
-
-
 
 .hero-content {
     width: 869px;
@@ -459,17 +369,16 @@ opacity: 0px;
 
 
 .hero-content h1 {
-    margin-bottom: 10px; /* Установите нужный отступ снизу */
+    margin-bottom: 10px; 
 }
 
 .hero-content p {
-    margin-bottom: 20px; /* Установите нужный отступ снизу */
+    margin-bottom: 20px; 
 }
 
 .hero-btn {
-    margin-top: 20px; /* Установите нужный отступ сверху */
+    margin-top: 20px; 
 }
-
 
 .hero-content h1 {
     font-family: "Montserrat", sans-serif;
@@ -508,16 +417,6 @@ height: 87px;
 gap: 0px;
 opacity: 0px;
 
-    /* width: 427px;
-    margin: auto;
-    font-family: "Roboto";
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 29.4px;
-    letter-spacing: 0.01em;
-    text-align: center; */
-
-
     font-family: Roboto;
     font-size: 21px;
     font-weight: 400;
@@ -546,26 +445,6 @@ opacity: 0px;
     text-align: left;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* дз */
-
-
 
 
 
@@ -610,12 +489,6 @@ opacity: 0px;
     background: gray; 
 }
 
-
-
-
-
-/*menu css*/
-
 .menu{
     background-color:#C4E5FC ;
     padding: 40px ;
@@ -628,8 +501,6 @@ opacity: 0px;
 
     .menu-text{
         width: 494px;
-        /* padding-top: 148px; */
-
         button.menu-btn1 {
            margin-bottom: 20px;
            padding: 4px 8px 4px 8px;
@@ -681,125 +552,51 @@ div {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
 .recipes-buttons {
     display: flex;
-    gap: 10px; /* Промежуток между кнопками */
-    justify-content: center; /* Центрируем кнопки */
-    margin-bottom: 20px; /* Отступ снизу */
+    gap: 10px; 
+    justify-content: center; 
+    margin-bottom: 20px; 
 }
 
 .button {
-    background-color: #F0EBE1; /* Фоновый цвет */
-    border: 1px solid gray; /* Серая рамка */
-    color: gray; /* Цвет текста */
-    padding: 10px 20px; /* Отступы внутри кнопок */
-    cursor: pointer; /* Курсор в виде указателя */
-    transition: background 0.3s, color 0.3s, border 0.3s; /* Плавный переход */
+    background-color: #F0EBE1; 
+    border: 1px solid gray; 
+    color: gray;
+    padding: 10px 20px;
+    cursor: pointer; 
+    transition: background 0.3s, color 0.3s, border 0.3s;
 }
 
 .button.active-button {
-    background-color: #9FDC26; /* Цвет фона при активации */
-    border: 1px solid black; /* Черная рамка при активации */
-    color: black; /* Черный цвет текста при активации */
+    background-color: #9FDC26; 
+    border: 1px solid black; 
+    color: black; 
 }
 
 .recipes-cards {
-  
-    display: inline; /* Используем grid для управления расположением */
-    grid-template-columns: repeat(auto-fill, minmax(427px, 1fr)); /* Автоматически заполняем колонки */
-    gap: 16px; /* Промежуток 16px между карточками по горизонтали и вертикали */
-    justify-content: center; /* Центрируем карточки */
+    display: inline;
+    grid-template-columns: repeat(auto-fill, minmax(427px, 1fr)); 
+    gap: 16px; 
+    justify-content: center; 
 }
 
 .card {
     border-radius: 20px;
-    width: 140px; /* Ширина карточки */
-    height: 551px; /* Высота карточки */
-    opacity: 0; /* Начальная непрозрачность */
-    transition: opacity 0.3s; /* Плавный переход для непрозрачности */
+    width: 140px; 
+    height: 551px;
+    opacity: 0; 
+    transition: opacity 0.3s; 
 }
 
 .card img {
     border-radius: 20px;
-    width: 100%; /* Ширина изображения */
-    height: 70%; /* Высота изображения (можно настроить) */
+    width: 100%;
+    height: 70%; 
     
 }
 
 .card-text {
     padding: 10px;
-    text-align: center; /* Центрируем текст */
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .recipes {
-    padding: 20px;
-}
-
-.recipes-buttons {
-    margin-bottom: 20px;
-}
-
-.button {
-    margin-right: 10px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.active-button {
-    background-color: #007bff;
-    color: white;
-}
-
-.card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-    display: inline-block;
-    width: 200px;
-}
-
-.card-img img {
-    width: 100%;
-    height: auto;
-}
-
-.card-text {
-    padding: 10px;
-} */
-
-
-
-
